@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   }
+body{
+  font-family:Verdana, Tahoma, sans-serif;
+   background-image: url("https://img.freepik.com/free-photo/office-table-with-cup-coffee-keyboard-notepad_1220-4618.jpg?size=626&ext=jpg&ga=GA1.2.1259642969.1679578328&semt=ais");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+ 
+   
 }
+.bg{
+  background: rgb(249, 60, 3)!important;
+  
+}
+.btn{
+  background-color: rgb(249, 60, 3)!important;
+}
+.create-btn{
+  background-color: rgb(249, 60, 3) !important;
+  margin-top: 10px !important;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.update-btn{
+    margin-top: 10px !important;
+    background-color: rgb(249, 60, 3) !important;
+}
+.home{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
+  margin-top: 80px;
 }
